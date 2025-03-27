@@ -18,28 +18,24 @@
     </properties>
 
     <dependencies>
-        <!-- API JPA -->
         <dependency>
             <groupId>javax.persistence</groupId>
             <artifactId>javax.persistence-api</artifactId>
             <version>${javax.persistence.version}</version>
         </dependency>
 
-        <!-- Hibernate Core -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>${hibernate.version}</version>
         </dependency>
 
-        <!-- Driver Oracle (ojdbc8) -->
         <dependency>
             <groupId>com.oracle.database.jdbc</groupId>
             <artifactId>ojdbc8</artifactId>
             <version>19.3.0.0</version>
         </dependency>
 
-        <!-- Logging (opcional) -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -54,7 +50,6 @@
 
     <build>
         <plugins>
-            <!-- Plugin de compilação do Maven -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>

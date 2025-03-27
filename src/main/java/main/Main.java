@@ -11,7 +11,7 @@ public class Main {
         Funcionario funcionario = new Funcionario("Rafael", 10000, 20.0);
         FuncionarioSenior senior = new FuncionarioSenior("Maria", 45, 30.0, 50.0);
         FuncionarioEstagiario estagiario = new FuncionarioEstagiario("Pedro", 30, 15.0);
-        FuncionarioGerente gerente = new FuncionarioGerente("Rodrigo", 40, 50.0, 2000.0);
+        FuncionarioGerente gerente = new FuncionarioGerente("Julia", 40, 50.0, 2000.0);
         FuncionarioTerceirizado terceirizado = new FuncionarioTerceirizado("José", 35, 25.0, 500.0);
 
         System.out.println("=== Informações dos Funcionários ===");
